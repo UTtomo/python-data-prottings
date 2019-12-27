@@ -1,0 +1,63 @@
+<style>
+body{
+  font-size: 16px;
+  background-color: rgb(248,249,250);
+}
+footer{
+  background-color: rgb(240,240,240);
+}
+#list1{
+background: url(image/1.png);
+background-size:cover;
+}
+#list2{
+background: url(image/2.png);
+background-size:cover;
+}
+#list3{
+background: url(image/3.png);
+background-size:cover;
+}
+#list4{
+background: url(image/4.png);
+background-size:cover;
+}
+#list5{
+background: url(image/5.png);
+background-size:cover;
+}
+#list6{
+background: url(image/6.png);
+background-size:cover;
+}
+#list7{
+background: url(image/7.png);
+background-size:cover;
+}
+/* .navbar-brand{
+background: url("image/logo_header.png") no-repeat left center;
+background-size: contain;
+height: 40px;
+width: 40vh;
+padding-top: 0px;
+margin-right: 0px;
+} */
+
+.jumbotron{
+padding-top: 0px;
+background: url(image/c.jpg);
+background-size: cover;
+background-position: 50% 50%;
+height: 100vh;
+min-height: 300px;
+}
+.a_row{
+display: inline-block;
+}
+.a_row h5{
+vertical-align: bottom;
+}
+.card{
+color: white;
+}
+</style>

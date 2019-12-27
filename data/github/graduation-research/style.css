@@ -1,0 +1,57 @@
+<style>
+body{
+  font-size: 16px;
+  background-color: rgb(50,50,50);
+}
+header{
+  text-align: center;
+  font-size: 30px;
+  color: rgb(200,200,200);
+  background-color: rgb(10,10,10);
+}
+footer{
+  background-color: rgb(50,50,50);
+}
+
+section{
+  padding-top: 10px;
+  background-color: rgb(50,50,50);
+}
+.container{
+    margin-top: 1.5em;
+    background-color: rgb(50,50,50);
+    text-align: center;
+}
+.aBox{
+  text-align: center;
+  vertical-align: center;
+  width: 60%;
+  height: 60%;
+
+}
+
+/* Home page */
+.a_row{
+display: inline-block;
+vertical-align: bottom;
+}
+
+.a_row h2{
+  color: rgb(234,174,264);
+  margin-bottom: 1em;
+}
+
+.frame img{
+  border-radius: 10px;
+}
+.wrapper{
+  display: inline-block;
+}
+
+.frame a{
+  color: black;
+  top: 45%;
+  left: 20%;
+}
+
+</style>

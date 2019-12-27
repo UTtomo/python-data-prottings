@@ -1,0 +1,25 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Eel app</title>
+	<script type="text/javascript" src="/eel.js"></script>
+	<script type="text/javascript">
+
+	// run a python script with asynchronously
+	function link1Click() {
+		eel.link1_click();
+	}
+
+	async function link2Click() {
+		let val = await eel.link2_click("args-test")();
+		alert(val);
+	}
+	</script>
+</head>
+
+<body>
+	<a href="#" onclick="link1Click()">Link10000</a>
+	<br>
+	<a href="#" onclick="link2Click()">Link2</a>
+</body>
+</html>
